@@ -12,13 +12,27 @@ var app = new Vue({
     variants: [
       {
         variantId: 2234,
-        variantColor: "green"
+        variantColor: "green",
+        variantImage: "./assets/vmSocks-green.jpg"
       },
       {
         variantId: 2235,
-        variantColor: "blue"
+        variantColor: "blue",
+        variantImage: "./assets/vmSocks-blue.jpg"
       }
     ],
-    sizes: ["Small", "Medium", "Large"]
+    sizes: ["Small", "Medium", "Large"],
+    cart: 0
+  },
+  methods: {
+    updateProduct(variantImage) {
+      this.image = variantImage;
+    },
+    addToCart() {
+      this.cart += 1;
+    },
+    removeFromCart() {
+      this.cart -= 1;
+    }
   }
 });

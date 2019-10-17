@@ -27,3 +27,26 @@ img {
   margin-top: 10px;
   width: 50%;
 }
+
+.cart {
+  margin-right: 25px;
+  float: right;
+  border: 1px solid #d8d8d8;
+  padding: 5px 20px;
+}
+
+button {
+  margin-top: 30px;
+  border: #1e95ea;
+  border-radius: 5px;
+  background-color: #1e95ea;
+  color: white;
+  height: 40px;
+  font-size: 14px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #eee;
+  color: #1e95ea;
+  border: #1e95ea;
+}
