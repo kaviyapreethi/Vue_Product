@@ -5,6 +5,8 @@ var app = new Vue({
     discription: "A pair of warm, fuzzy socks",
     image: "./assets/vmSocks-green.jpg",
     link:
-      "https://www.vuemastery.com/images/challenges/vmSocks-green-onWhite.jpg"
+      "https://www.vuemastery.com/images/challenges/vmSocks-green-onWhite.jpg",
+    instock: true,
+    onSale: true
   }
 });
