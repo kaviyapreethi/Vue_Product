@@ -44,9 +44,33 @@ button {
   height: 40px;
   font-size: 14px;
 }
+
 button:hover {
   cursor: pointer;
   background-color: #eee;
   color: #1e95ea;
   border: #1e95ea;
+}
+
+.color-box {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.disabledButton {
+  background-color: #d8d8d8;
+}
+
+.outOfStock {
+  text-decoration: line-through;
+}
+
+.outOfStockButton {
+  color: white;
+  cursor: none;
+}
+.outOfStockButton:hover {
+  color: white;
+  cursor: none;
 }
