@@ -74,3 +74,36 @@ button:hover {
   color: white;
   cursor: none;
 }
+.review-form {
+  width: 400px;
+  padding: 20px;
+  margin: 40px;
+  border: 1px solid #d8d8d8;
+}
+
+input {
+  width: 100%;
+  height: 25px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 60px;
+}
+
+.submitButton {
+  border: #1e95ea;
+  border-radius: 5px;
+  background-color: #1e95ea;
+  color: white;
+  height: 40px;
+  font-size: 14px;
+}
+
+.submitButton:hover {
+  cursor: pointer;
+  background-color: #eee;
+  color: #1e95ea;
+  border: #1e95ea;
+}
