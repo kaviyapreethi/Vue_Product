@@ -93,17 +93,22 @@ textarea {
 }
 
 .submitButton {
-  border: #1e95ea;
   border-radius: 5px;
-  background-color: #1e95ea;
+  background: linear-gradient(-90deg, #84cf6a, #16c0b0);
   color: white;
   height: 40px;
   font-size: 14px;
 }
 
-.submitButton:hover {
+.product-tab {
+  width: 100%;
+}
+.tabs {
+  margin-left: 20px;
   cursor: pointer;
-  background-color: #eee;
-  color: #1e95ea;
-  border: #1e95ea;
+}
+
+.activeTab {
+  color: #16c0b0;
+  text-decoration: underline;
 }
